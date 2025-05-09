@@ -27,7 +27,6 @@
 :443, h3.xx.yy, zh.xx.yy { #h3.xx.yy 与 zh.xx.yy 修改为自己的域名。注意：逗号与域名之间有一个空格。
 	tls {
 		ciphers TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
-		curves x25519 secp521r1 secp384r1 secp256r1
 	}
 
 	log log0 #访问日志的启用配置。（选配）
